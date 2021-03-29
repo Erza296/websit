@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Validate Credit Card Information</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+  <form name="creditChecker">
+	  Enter Card Holder's Name: <input type="text" name="username" value="" size="20"> <br>
+
+    Card Number (Must be 16 digits): <input type="text" name="cardNumber" value="" maxlength="16" size="16"><br>
+
+    Card Expiration Date (Month/Date): <input type="text" name="expireDate" value="" maxlength="2" size="2"> / <input type="text" name="expireDate2" value="" maxlength="2" size=2><br>
+    
+    <input type="button" onclick="checkInfo()" name="checkInformation" value="Submit Info">
+  </form>
+  </body>
+</html>
